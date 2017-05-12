@@ -47,7 +47,6 @@ Calculator.prototype.fn_input = function (int, regexp, index) {
 //判断按钮
 // Calculator.prototype.fn_btn = function (on) {
 //     if (on > 4) {
-//         console.log('a')
 //         oBtn.style.backgroundColor = '#f99c2c';
 //         oBtn.style.cursor = 'pointer';
 //     } else {
