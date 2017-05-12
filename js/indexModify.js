@@ -9,20 +9,7 @@ var ID = false;
 function Calculator() {
     var _this = this;
     //验证用户名
-    this.Matchthename = function () {
-        var input = document.getElementsByTagName('input')[0];
-        var regexp = /^[\u4e00-\u9fa5_a-zA-Z0-9-]{1,16}$/;
-        input.onblur = function () {
-            if (regexp.test(input.value)) {
-                img[0].innerHTML = "<img src='images/dui.jpg'>";
-                UserName = true;
-            } else {
-                img[0].innerHTML = "<img src='images/cuo.jpg'>";
-                UserName = false;
-            }
-            _this.fn_btn();
-        };
-    };
+
     //验证邮箱
     this.Matchingemail = function () {
         var input = document.getElementsByTagName('input')[1];
