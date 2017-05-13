@@ -5,4 +5,3 @@
 祝您，早上好，中午好，下午好，晚安
 
 ![index](https://github.com/Mr-LiXianSheng/validate-form/blob/master/images/img.jpg "天猫注册")
-
